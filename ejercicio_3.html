@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 3: Formularios</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <a href="./index.html">Ejercicio-1</a>
+        <a href="./ejercicio_2.html">Ejercicio-2</a>
+        <h1>Formulario de registro</h1>
+      </header>
+      <form>
+        <section>
+          <nav>
+            <div>
+              <label for="name">Nombre</label>
+              <input type="text" id="name" required />
+            </div>
+            <br />
+
+            <div>
+              <label for="lastname">Apellido</label>
+              <input type="text" id="lastname" required />
+            </div>
+            <br />
+
+            <div>
+              Modalidad de cursada:
+              <input type="radio" id="On-Demand" name="Modalidad" required />
+              <label for="On-Demand">On-Demand</label>
+              <input type="radio" id="En vivo" name="Modalidad" required />
+              <label for="En vivo">En vivo</label>
+            </div>
+            <br />
+
+            <div>
+              <label for="email">Correo</label>
+              <input type="email" id="email" required />
+            </div>
+            <br />
+          </nav>
+        </section>
+        <!-- Terminos y Condiciones -->
+        <section>
+          <nav>
+            <div>
+              <input type="checkbox" id="Terminos" />
+              <label for="Terminos"
+                >Deseo recibir los nuevos posteos en la platoforma Nucba.</label
+              >
+            </div>
+
+            <div>
+              <input type="checkbox" id="Terminos 2" />
+              <label for="Terminos 2"
+                >Declaro que lei los terminos y condiciones y estoy listo para
+                convertirme en desarrollador web Full Stack.</label
+              >
+            </div>
+
+            <div>
+              <input type="submit" name="Enviar" />
+            </div>
+          </nav>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
